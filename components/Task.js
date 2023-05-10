@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
+// The Task is a component that we use in our App.js
 const Task = (props) => {
   return (
     <View style={styles.item}>
@@ -48,4 +49,5 @@ const styles = StyleSheet.create({
   },
 });
 
+// we export the component Task
 export default Task;
